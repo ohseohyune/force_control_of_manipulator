@@ -5,7 +5,6 @@ Study notes &amp; simulations for Force Control of Manipulators (Chap.11)
 
 > **Course:** Robotic Application — Spring Semester 2026  
 > **Reference:** Siciliano et al., *Robotics: Modelling, Planning and Control*  
-> **Lab:** BICAR (Biologically-inspired Control and Robot) Lab., KwangWoon University
 
 ---
 
@@ -147,6 +146,7 @@ $$M_d \ddot{x}_e + B_d \dot{x}_e + K_d x_e = f_e$$
 ---
 
 ## 4. Torque-Controlled Manipulator (Direct Force Control)
+<img width="657" height="246" alt="image" src="https://github.com/user-attachments/assets/af788ba8-daa9-43ea-8eb5-bdf05cd23493" />
 
 ### 4.1 System Model & Linearization
 
@@ -309,6 +309,7 @@ $$\tau_{\text{output}} = N \cdot \tau_{\text{motor}}, \qquad \text{friction} \pr
 ---
 
 ## 6. Position-Controlled Manipulator
+<img width="653" height="216" alt="image" src="https://github.com/user-attachments/assets/31d24dcc-525d-4a2b-b679-a4ddae2d7387" />
 
 ### 6.1 개요
 
@@ -347,6 +348,8 @@ x_t ──→ [ Position-controlled Manipulator ] ──→ x
 ---
 
 ## 7. Direct Force Control
+<img width="597" height="257" alt="image" src="https://github.com/user-attachments/assets/4c6af20e-f316-444f-837c-7908ff4b661b" />
+<img width="356" height="240" alt="image" src="https://github.com/user-attachments/assets/bb2398e7-043b-4b7a-828a-403588abb3ec" />
 
 ### 7.1 제어 법칙
 
@@ -401,6 +404,7 @@ $$G_F(s) = K \frac{s + z}{s + p}$$
 ---
 
 ## 8. Force Control via Position-Controlled Manipulator
+<img width="756" height="311" alt="image" src="https://github.com/user-attachments/assets/8ed1c817-ed4e-436c-93f4-ef8615f8e379" />
 
 토크 제어 없이 **위치 명령만으로** 힘 제어를 수행하는 방법.
 
@@ -564,6 +568,7 @@ $$\text{로봇이 "스프링"처럼 동작:} \quad f_{ss} = K_p \cdot \delta, \q
 ---
 
 ## 10. N-Link Manipulator: Stiffness Control
+<img width="796" height="220" alt="image" src="https://github.com/user-attachments/assets/13e2b7a9-0c13-4129-a23b-a77e38a17c33" />
 
 ### 10.1 시스템 동역학
 
