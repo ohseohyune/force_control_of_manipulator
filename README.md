@@ -5,6 +5,7 @@ Study notes &amp; simulations for Force Control of Manipulators (Chap.11)
 
 > **Course:** Robotic Application — Spring Semester 2026  
 > **Reference:** Siciliano et al., *Robotics: Modelling, Planning and Control*
+>
 > **Lab**: BICAR (Biologically-inspired Control and Robot) Lab., KwangWoon University
 
 ---
