@@ -490,7 +490,7 @@ $$\tau = m\ddot{x} + K_e(x - x_e)$$
 
 ### 9.2 PD 제어기 설계
 
-$$\tau = -K_v \dot{x} + K_p(x_d - x)$$
+$$\tau = -K_v \dot{x} - K_p(x-x_d)$$
 
 - $K_p$ : 비례 게인 (위치 강성 역할)
 - $K_v$ : 속도 게인 (댐핑 역할)
