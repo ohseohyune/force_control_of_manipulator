@@ -146,7 +146,7 @@ $$M_d \ddot{x}_e + B_d \dot{x}_e + K_d x_e = f_e$$
 
 ---
 
-## 4. Torque-Controlled Manipulator
+## 4. Torque-Controlled Manipulator (Direct Force Control)
 
 ### 4.1 System Model & Linearization
 
