@@ -1,0 +1,20 @@
+force_control/
+├── README.md
+├── phase1_contact/
+│   ├── 01_system_model.py
+│   ├── 02_approach.py
+│   ├── 03_contact_transition.py
+│   ├── 04_p_force_control.py
+│   ├── 05_pi_force_control.py
+│   ├── 06_theory_verification.py
+│   └── results/
+├── phase2_deburring/
+│   ├── 01_system_2d.py
+│   ├── 02_hybrid_control.py
+│   ├── 03_unknown_surface.py
+│   ├── 04_stiffness_effect.py
+│   ├── 05_visualization.py
+│   └── results/
+└── utils/
+    ├── dynamics.py     # 공통 ODE solver 래퍼
+    └── plotting.py     # 공통 플롯 스타일
